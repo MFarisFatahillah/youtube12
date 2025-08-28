@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercises 14e</title>
+</head>
+<style>
+  body{
+    padding-top: 60px;
+    padding-bottom: 30000px;
+    padding-left: 310px;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile{
+  width: 40px;
+}
+.profile-img{
+  width: 100%;
+  border-radius: 100%;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-add, .btn-message{
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-add{
+  background-color: rgb(0, 104, 230);
+  color: white;
+}
+.name{
+  font-weight: bold;
+}
+.sidebar{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(45, 45, 45);
+  top: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-image2{
+  width: 50px;
+}
+.profil{
+  width: 100%;
+  border-radius: 100%;
+}
+.img-section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(33, 33, 33);
+  width: fit-content;
+  padding: 10px;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.info-section{
+  flex: 1;
+  padding: 10px;
+
+
+}
+.content{
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  margin: 0px;
+}
+.info-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.des{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.info-content{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.des{
+  color: rgb(132, 132, 132);
+}
+</style>
+<body>
+  <div class="navbar">
+    <div class="left-section">
+      <div class="profile">
+      <img class="profile-img" src="/intro-to-html/image/download (3).jpg" alt="">
+      </div>
+      <p class="name">Oliver Cat</p>
+    </div>
+    <div class="right-section">
+      <button class="btn-add">Add Friend</button>
+      <button class="btn-message">Message</button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="img-section">
+      <div class="profile-image2">
+        <img class="profil" src="/intro-to-html/image/download (3).jpg" alt="">
+      </div>
+      <div class="profile-image2">
+        <img class="profil" src="/intro-to-html/image/meme.jpg" alt="">
+      </div>
+      <div class="profile-image2">
+        <img class="profil" src="/intro-to-html/image/пикчеубежище.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="info-section">
+      <div class="info-header">
+        <p class="des">INFO</p>
+        <p class="des">+</p>
+      </div>
+
+      <div class="info-content">
+        <p class="des"># new-videos</p>
+        <p class="des"># updates</p>
+        <p class="des"># faq</p>
+      </div>
+    </div>
+  </div>
+      <div class="content">
+
+    </div>
+</body>
+</html>

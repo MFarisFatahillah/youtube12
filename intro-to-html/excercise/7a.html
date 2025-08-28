@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercises 7a</title>
+</head>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.rounded {
+  border-radius: 12px;
+  width: 200px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.rounded-input{
+  border-radius: 5px;
+  padding: 7px 10px;
+  border-width: 1px;
+  border-color: rgb(211, 211, 211) ;
+  border-style: solid;
+}
+
+.shadow-input{
+  border: none;
+  width: 300px;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.signup-label{
+  font-size: small;
+  color: gray;
+}
+
+.signup-input{
+  margin-top: 5px;
+  width: 317px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.signup-deskripsi{
+  font-size: small;
+  color: gray;
+}
+
+.signup-btn{
+  background-color: rgb(53, 101, 205);
+  color: white;
+  padding: 15px 0px ;
+  border: none;
+  width: 317px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+</style>
+<body>
+  <img class="rounded" src="/thumbnail/thumbnail-1.webp" alt="">
+
+  <img class="square" src="/thumbnail/thumbnail-1.webp" alt="">
+
+  <img class="circle" src="/thumbnail/thumbnail-1.webp" alt="">
+
+  <input type="text" placeholder="Search" class="rounded-input">
+
+  <input type="text" placeholder="Search Google or type a URL" class="shadow-input">
+  <br>
+  <!-- line --> <hr>
+  <br>
+  <label class="signup-label" for="email">Email</label> <br>
+  <input type="email" placeholder="Email" class="signup-input">
+  <p class="signup-deskripsi">By clicking Agree & Join, you agree to the Privacy Policy</p>
+  <button class="signup-btn">Agree & Join</button>
+</body>
+</html>

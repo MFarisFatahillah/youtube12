@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercise 11a</title>
+</head>
+<style>
+  p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    padding-bottom: 300px;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .head-grid{
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+
+  .image{
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .notif{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-items: center;
+  }
+
+  .profile-image{
+    width: 100%;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+
+  .nama{
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  .mutual-friends{
+    margin-left: 20px;
+    font-size: large;
+    color: gray;
+  }
+
+  .btn-add{
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: rgb(12, 146, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .btn-add:hover{
+    opacity: 0.8;
+  }
+
+  .btn-add:active{
+    opacity: 0.6;
+  }
+
+</style>
+<body>
+  <div style="display: grid; grid-template-columns: 200px 75px;">
+  <div style="background-color: lightblue;">200px</div>
+  <div style="background-color: lightpink;">75px</div>
+  </div>
+  <!-- line --> <hr>
+   <div style="display: grid; grid-template-columns: 50px 1fr 75px;">
+    <div style="background-color: lightblue;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightgreen;">col3</div>
+   </div>
+   <!-- line --> <hr>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 20px; row-gap: 10px;">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightblue;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+      <div style="background-color: lightblue;">col4</div>
+      <div style="background-color: lightblue;">col5</div>
+      <div style="background-color: lightblue;">col6</div>
+      <div style="background-color: lightblue;">col7</div>
+      <div style="background-color: lightblue;">col8</div>
+    </div>
+    <!-- line --> <hr>
+     <div class="container">
+      <div class="head-grid">
+        <img class="image" src="/intro-to-html/image/download (3).jpg" alt="">
+        <p class="nama">Oliver</p>
+        <div class="notif">
+        <img class="profile-image" src="/channel-picture/channel-1.jpeg" alt="">
+        <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="btn-add">Add friends</button>
+      </div>
+      <div class="head-grid">
+        <img class="image" src="/intro-to-html/image/meme.jpg" alt="">
+        <p class="nama">Mimi</p>
+        <div class="notif">
+        <img class="profile-image" src="/channel-picture/channel-4.jpeg" alt="">
+        <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="btn-add">Add friends</button>
+      </div>
+      <div class="head-grid">
+        <img class="image" src="/intro-to-html/image/пикчеубежище.jpg" alt="">
+        <p class="nama">Oliver</p>
+        <div class="notif">
+        <img class="profile-image" src="/channel-picture/channel-6.jpeg" alt="">
+        <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="btn-add">Add friends</button>
+      </div>
+     </div>
+</body>
+</html>

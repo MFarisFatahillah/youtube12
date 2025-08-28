@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercises 8a</title>
+</head>
+<style>
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.input-name,
+.input-email {
+  display: block;
+  margin-bottom: 5px;
+  border-color: rgb(223, 216, 216);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message{
+  width: 200px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo-google{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.input-google{
+  width: 90%;
+  margin: 15px auto;
+  display: block;
+  padding: 15px 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input-firstname,
+.input-lastname,
+.input-email2 {
+  width: 120px;
+  height: 10px;
+  padding: 10px 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(189, 189, 189);
+  border-style: solid;
+}
+
+.input-email2 {
+  display: block;
+  width: 262px;
+  margin: 8px 0px;
+}
+
+.btn-signup{
+  width: 280px;
+  padding: 10px 8px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(94, 142, 254);
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s, box-shadow 0.15s, margin 0.15s;
+}
+
+.btn-signup:hover{
+  opacity: 0.8;
+  box-shadow: 2px 3px 2px rgba(54, 101, 187, 0.99);
+}
+
+.btn-signup:active{
+  opacity: 0.6;
+  margin: 2px 3px;
+  box-shadow: none;
+}
+
+.request-ride {
+ font-weight: 100;
+}
+
+.input-pickup,
+.input-destination {
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+}
+
+.input-destination{
+  margin-bottom: 40px;
+}
+
+.btn-request,
+.btn-schedule {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s;
+}
+
+.btn-request{
+  background-color: black;
+  color: white;
+}
+
+.btn-request:hover{
+  opacity: 0.8;
+}
+.btn-request:active{
+  opacity: 0.6;
+}
+
+.btn-schedule:hover{
+  background-color: rgb(227, 227, 227);
+}
+
+.btn-schedule:active{
+  opacity: 0.6;
+}
+
+</style>
+<body>
+  <input class="input-name" type="text" placeholder="Name">
+  <input class="input-email" type="email" placeholder="Email">
+  <!-- line --> <hr>
+   <p class="message">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+   <button class="btn-yes">Yes</button>
+   <button class="btn-no">No</button>
+   <!-- line --> <hr>
+    <img class="logo-google" src="/intro-to-html/image/google-logo-9834.png" alt="">
+    <input class="input-google" type="text" placeholder="Search Google or type a URL">
+    <!-- line --> <hr>
+     <input class="input-firstname" type="text" placeholder="First name">
+     <input class="input-lastname" type="text" placeholder="Last name">
+     <input class="input-email2" type="email" placeholder="Email">
+     <button class="btn-signup">Sign Up</button>
+     <!-- line --> <hr>
+      <h1 class="request-ride">Request a ride now</h1>
+      <input class="input-pickup" type="text" placeholder="Enter pickup location">
+      <input class="input-destination" type="text" placeholder="Enter destination">
+      <button class="btn-request">Request now</button>
+      <button class="btn-schedule">Schedule for later</button>
+
+</body>
+</html>
